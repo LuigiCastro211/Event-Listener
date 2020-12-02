@@ -29,7 +29,7 @@ function mover(){
   {
   t+= 0.1;
   x2 = x2 + vX*t;
-  y2 = y20 + vY* vY*t + (9.8*Math.pow(t,2))/2;
+  y2 = y20 + vY*t + (9.8*Math.pow(t,2))/2;
   angle = angle + dAngle;
   nombre.style.transform = `translate(${x2}px, ${y2}px) rotate(${angle}deg)`
   }
